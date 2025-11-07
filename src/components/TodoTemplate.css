@@ -1,0 +1,25 @@
+.todo-template {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.todo-template h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .todo-template {
+    padding: 20px;
+  }
+
+  .todo-template h1 {
+    font-size: 20px;
+  }
+}
