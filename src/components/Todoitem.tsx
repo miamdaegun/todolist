@@ -1,5 +1,5 @@
 import { type Todo } from "../types";
-import "./TodoItem.css";
+import "./Todoitem.css";
 
 interface TodoItemProps {
   todo: Todo;
